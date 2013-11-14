@@ -5,8 +5,8 @@
 			$userMsg=$_REQUEST['userMsg'];
 			$subject = "Message from ".$userName; 
 			$message = '<html><head><title>'.$subject.'</title></head><body><table><tr><td>Email id :  </td><td> '.$userEmail.'</td></tr>
-<tr><td>Phone No : </td><td> '.$userPhone.'</td></tr><tr><td>Name : </td><td> '.$userName.'</td></tr><tr><td>Says : </td><td> '.$userMsg.'</td>
-</tr></table></body></html>';
+			<tr><td>Phone No : </td><td> '.$userPhone.'</td></tr><tr><td>Name : </td><td> '.$userName.'</td></tr><tr><td>Says : </td><td> '.$userMsg.'</td>
+			</tr></table></body></html>';
 			//$message = "Email id :  ".$userEmail. "\r\nPhone No : ".$userPhone."\r\nName : ".$userName."\r\nSays : ".$userMsg;
 			$to=$email_id;
 			$headers = "From: " . strip_tags($userEmail) . "\r\n";
