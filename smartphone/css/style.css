@@ -32,6 +32,16 @@ img{max-width:100%;}
 	font-family: 'AmbleRegular';
     src: url( ../fonts/Amble-Light-webfont.ttf ) format("truetype"); 
 }
+
+li {
+	font: inherit;
+/*	font-family: 'AmbleRegular';
+  src: url( ../fonts/Amble-Light-webfont.ttf ) format("truetype");*/
+  color:#6A6A6A;
+  font-size: 13px;
+  line-height: 1.5em; 
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:100%;
